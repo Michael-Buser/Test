@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 6
+   Case Problem 4
+
+   Hamilton Conference Center Style Sheet
+   Author:Michael Buser
+   Professor Herrington
+   Date:11/7/2017
+
+   Filename:         hcc_styles.css
+   Supporting files: 
+
+*/
+/*text aligned in the center with a bisque background color*/
+body{
+    text-align: center;
+    background-color: bisque;
+}
+/*forces the list elements to be horizontal*/
+li{
+    display: inline;    
+}
+/*sets nav properties to be centered with no decoration and a light blue background color*/
+nav{
+    text-align: center;    
+    background-color: #56CEB8;
+    text-decoration: none;
+}
+/*text color set to whitesmoke within the nav*/
+nav a{
+    color: whitesmoke;
+}
+/*upon hovering on the nav bar text color set to black*/
+nav a:hover{
+    color: black;
+}
+/*header text center aligned*/
+header{
+    text-align: center;    
+}
+/*h6 in the header floats right*/
+header > h6{
+    float: right;
+}
+/*list elements in an ordered list displayed in a block*/
+ol > li{
+    display: block;    
+}
+/*for the two following div elements they are next to each other*/
+div.Rooms{
+    display: inline-block;
+}
+div.Capacity{
+    display: inline-block;
+}
+/*footer unoreder list has the same properties of the nav bar*/
+footer > ul{
+    color: whitesmoke;
+    background-color: #56CEB8;
+}
